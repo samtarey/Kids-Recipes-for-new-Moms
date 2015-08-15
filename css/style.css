@@ -1,0 +1,92 @@
+* {
+	/*border: 1px red solid !important;*/
+	/*font-family: 'Schoolbell', cursive;
+	font-family: 'Coming Soon', cursive;
+	font-family: 'Merienda', cursive;*/
+	/*font-family: 'Quicksand', sans-serif;
+	font-family: 'Chewy', cursive;
+	font-family: 'Actor', sans-serif;*/
+	/*font-family: 'Magra', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Slabo 27px', serif;*/
+}
+
+body {
+	/*background-image: url("file:///C:/Users/tareys01/Desktop/Portfolio/Kids%20Recipes%20for%20new%20Moms/images/symphony.png");*/
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.top-row {
+	background-color: palegreen;
+}
+.logo {
+	font-family: 'Chewy', cursive;
+	color: rgb(99, 99, 99);
+}
+
+.top-menu-row a {
+	color: white;
+}
+
+.top-menu-row a:hover {
+	text-decoration: none;
+}
+
+.top-menu-row {
+	padding: 0 0;
+	margin-top: 0;
+	margin-bottom: 30px;
+	background-color: dimgray;
+}
+
+h5 {
+	font-family: 'Magra', sans-serif;
+}
+
+.inner-row1 {
+	margin-right: 15px;
+	border: 1px gray solid !important;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.inner-row2 {
+	margin-left: 15px;
+	border: 1px gray solid !important;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.inner-column-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+h5 span {
+	height: 100px;
+	transform-origin: bottom center;
+	font-family: 'Inconsolata', ;
+	position: absolute;
+	width: 10px;
+	left: 0;
+	top: 0;
+}
+
+span.char1 {
+	transform: rotate(6deg);
+}
+span.char2 {
+	transform: rotate(12deg);
+}
+span.char3 {
+	transform: rotate(18deg);
+}
+span.char4 {
+	transform: rotate(24deg);
+}
